@@ -29,7 +29,7 @@ public class EmployeeService {
  
 	public String addEmployee(Employee emp) {
 		if(employeeRepositories.save(emp) != null)
-			return "Added Succesfuly";
+			return "Added Succesfulyy";
 		else
 		return "Something Went Wrong";
 	}
